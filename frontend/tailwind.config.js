@@ -7,7 +7,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        
+        primaryColor: "",
+        yellowColor: "",
+        purpleColor: "",
+        irishBlueColor: "",
+        headingColor: "",
+        textColor: "",
+      },
+      boxShadow: {
+        pamelShadoe: ":",
       }
     },
   },
