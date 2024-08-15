@@ -7,16 +7,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryColor: "",
-        yellowColor: "",
-        purpleColor: "",
-        irishBlueColor: "",
-        headingColor: "",
-        textColor: "",
+        primaryColor: '#3490dc',
+        yellowColor: '#fbbf24',
+        purpleColor: '#6d28d9',
+        irishBlueColor: '#006d77',
+        headingColor: '#111827',
+        textColor: '#4b5563',
       },
       boxShadow: {
-        pamelShadoe: ":",
-      }
+        customShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+      },
     },
   },
   plugins: [],
