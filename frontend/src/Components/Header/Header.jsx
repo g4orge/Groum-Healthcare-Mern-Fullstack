@@ -1,14 +1,14 @@
 
 
 import React from 'react';
-import logo from '../../assets/images/Splashscreen.png'
+import Spalshscreen from '../../assets/images/Spalshscreen.png'
 const Header = () => {
     return <header className='header flex items-center'>
         <div className='container'>
             <div className='flex items-center justify-between'>
                 {/* ====== logo ====== */}
                 <div>
-                    <img src={Splashscreen} alt="" />
+                    <img src={Spalshscreen} alt="" />
                 </div>
             </div>
         </div>
