@@ -1,7 +1,7 @@
 
 
 import { useEffect, useRef } from 'react';
-import userImg from '../../assets/images/avatar-icon.webp'
+import userImg from '../../assets/images/avatar-icon.webp';
 import {NavLink,link} from 'react-router-dom';
 
 const navLinks =[
@@ -14,7 +14,7 @@ const navLinks =[
         display:'Find a Doctor'
     },
     {
-        path:'/servics',
+        path:'/services',
         display:'Services'
     },
     {
@@ -32,7 +32,7 @@ const Header = () => {
                         <img src={Spalshscreen} alt="" />
                     </div>
                     <div className='navigation'>
-                        <ul className='menu flex items-center gap=[2.7rem]'>
+                        <ul className='menu flex items-center gap-[2.7rem]'>
                             {
                                 navLinks.map((link,index)=><li key = {index}>
                                     <NavLink to ={link.path} className={navClass=> navClass.isActive? 'text-primaryColor text-[16px] leading-7 font-[600]' : 'text-textColor text-[16px] leading-7 font-[500] hover:text-primaryColor'
