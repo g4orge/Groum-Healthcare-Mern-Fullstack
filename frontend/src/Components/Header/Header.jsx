@@ -1,6 +1,7 @@
 
 
 import { useEffect, useRef } from 'react';
+import Spalshscreen from '../../assets/images/Spalshscreen.png'
 import userImg from '../../assets/images/avatar-icon.webp';
 import { NavLink, Link} from 'react-router-dom';
 
