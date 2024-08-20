@@ -1,6 +1,6 @@
 
 
-import { useEffect, useRe } from 'react';
+import { useEffect, useRef } from 'react';
 import userImg from '../../assets/images/avatar-icon.webp'
 import {NavLink,link} from 'react-router-dom';
 
